@@ -1,0 +1,2 @@
+[PASS] [VPASS] Stack.BasicString (1.506)
+[PASS] [VPASS] Stack.RandomInt (3.772)

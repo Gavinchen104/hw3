@@ -1,0 +1,2743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20221129-0407-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.10.2"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="galileojet-karatesusan"
+	OSRelease="5.4.0-1080-aws"
+	OSVersion="#87~18.04.1-Ubuntu SMP Fri Jun 10 18:32:41 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="1"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="1536"
+	TotalPhysicalMemory="768"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2549.32"
+	>
+	<Testing>
+		<StartDateTime>Nov 29 04:07 UTC</StartDateTime>
+		<StartTestTime>1669694836</StartTestTime>
+		<TestList>
+			<Test>./llrec_tests/Pivot.Empty</Test>
+			<Test>./llrec_tests/Pivot.Size1SmallEmpty</Test>
+			<Test>./llrec_tests/Pivot.Size1LargeEmpty</Test>
+			<Test>./llrec_tests/Pivot.Size2SmallLarge</Test>
+			<Test>./llrec_tests/Pivot.Size2LargeSmall</Test>
+			<Test>./llrec_tests/Pivot.Size3LargeSmallLarge</Test>
+			<Test>./llrec_tests/Pivot.Size3SmallLargeSmall</Test>
+			<Test>./llrec_tests/Pivot.Size3LargeLargeSmall</Test>
+			<Test>./llrec_tests/Pivot.Size6SmallThenLarge</Test>
+			<Test>./llrec_tests/Pivot.Size6LargeThenSmall</Test>
+			<Test>./llrec_tests/Pivot.Nominal</Test>
+			<Test>./llrec_tests/Pivot.SameValues</Test>
+			<Test>./llrec_tests/Pivot.NoCopySameNodeCheck</Test>
+			<Test>./llrec_tests/Filter.EmptyList</Test>
+			<Test>./llrec_tests/Filter.Size1_F</Test>
+			<Test>./llrec_tests/Filter.Size1_nF</Test>
+			<Test>./llrec_tests/Filter.Size2_F_nF</Test>
+			<Test>./llrec_tests/Filter.Size2_nF_F</Test>
+			<Test>./llrec_tests/Filter.Size3_nF_F_nF</Test>
+			<Test>./llrec_tests/Filter.Size3_F_nF_F</Test>
+			<Test>./llrec_tests/Filter.SameNodeCheck</Test>
+			<Test>./llrec_tests/Filter.MultipleCalls</Test>
+			<Test>./llrec_tests/Filter.CompareWithLlrec</Test>
+			<Test>./stack_tests/Stack.BasicString</Test>
+			<Test>./stack_tests/Stack.RandomInt</Test>
+			<Test>./heap_tests/HeapTest.ConstructionDestruction</Test>
+			<Test>./heap_tests/HeapTest.InitiallyEmpty</Test>
+			<Test>./heap_tests/HeapTest.EmptyTopException</Test>
+			<Test>./heap_tests/HeapTest.EmptyPopException</Test>
+			<Test>./heap_tests/HeapTest.SingleItemNonempty</Test>
+			<Test>./heap_tests/HeapTest.SingleItemPush</Test>
+			<Test>./heap_tests/HeapTest.SingleItemPushPop</Test>
+			<Test>./heap_tests/HeapTest.TwoElementPush_LowPriFirst</Test>
+			<Test>./heap_tests/HeapTest.TwoElementPush_HighPriFirst</Test>
+			<Test>./heap_tests/HeapTest.Duplicates</Test>
+			<Test>./heap_tests/HeapTest.NegativeElements</Test>
+			<Test>./heap_tests/HeapTest.ThreeElementPush_0_5_10</Test>
+			<Test>./heap_tests/HeapTest.ThreeElementPush_0_10_5</Test>
+			<Test>./heap_tests/HeapTest.ThreeElementPush_5_0_10</Test>
+			<Test>./heap_tests/HeapTest.ThreeElementPush_5_10_0</Test>
+			<Test>./heap_tests/HeapTest.ThreeElementPush_10_0_5</Test>
+			<Test>./heap_tests/HeapTest.ThreeElementPush_10_5_0</Test>
+			<Test>./heap_tests/HeapTest.GreaterComparator</Test>
+			<Test>./heap_tests/HeapTest.StringStorage</Test>
+			<Test>./heap_tests/HeapTest.FiveElementPush_TrinaryHeap</Test>
+			<Test>./heap_tests/HeapTest.SixElementPush_QuaternaryHeap</Test>
+			<Test>./heap_tests/HeapStress.50x50RandomElements_BinaryHeap</Test>
+			<Test>./heap_tests/HeapStress.50x50RandomElements_QuaternaryHeap</Test>
+			<Test>./heap_tests/HeapStress.50x50RandomElements_DodecenaryHeap</Test>
+			<Test>./heap_tests/HeapStress.2x2000RandomElements_Binary</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Pivot.Empty</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Empty</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Empty"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.44286</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Empty"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4599== Memcheck, a memory error detector
+==4599== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4599== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4599== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Empty
+==4599== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Empty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Empty
+[       OK ] Pivot.Empty (19 ms)
+[----------] 1 test from Pivot (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (93 ms total)
+[  PASSED  ] 1 test.
+==4599== 
+==4599== HEAP SUMMARY:
+==4599==     in use at exit: 0 bytes in 0 blocks
+==4599==   total heap usage: 404 allocs, 404 frees, 133,083 bytes allocated
+==4599== 
+==4599== All heap blocks were freed -- no leaks are possible
+==4599== 
+==4599== For counts of detected and suppressed errors, rerun with: -v
+==4599== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.Size1SmallEmpty</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Size1SmallEmpty</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size1SmallEmpty"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.4419</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size1SmallEmpty"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4600== Memcheck, a memory error detector
+==4600== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4600== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4600== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size1SmallEmpty
+==4600== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size1SmallEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size1SmallEmpty
+[       OK ] Pivot.Size1SmallEmpty (31 ms)
+[----------] 1 test from Pivot (40 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (92 ms total)
+[  PASSED  ] 1 test.
+==4600== 
+==4600== HEAP SUMMARY:
+==4600==     in use at exit: 0 bytes in 0 blocks
+==4600==   total heap usage: 413 allocs, 413 frees, 133,328 bytes allocated
+==4600== 
+==4600== All heap blocks were freed -- no leaks are possible
+==4600== 
+==4600== For counts of detected and suppressed errors, rerun with: -v
+==4600== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.Size1LargeEmpty</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Size1LargeEmpty</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size1LargeEmpty"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.43609</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size1LargeEmpty"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4601== Memcheck, a memory error detector
+==4601== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4601== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4601== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size1LargeEmpty
+==4601== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size1LargeEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size1LargeEmpty
+[       OK ] Pivot.Size1LargeEmpty (31 ms)
+[----------] 1 test from Pivot (40 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (92 ms total)
+[  PASSED  ] 1 test.
+==4601== 
+==4601== HEAP SUMMARY:
+==4601==     in use at exit: 0 bytes in 0 blocks
+==4601==   total heap usage: 413 allocs, 413 frees, 133,328 bytes allocated
+==4601== 
+==4601== All heap blocks were freed -- no leaks are possible
+==4601== 
+==4601== For counts of detected and suppressed errors, rerun with: -v
+==4601== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.Size2SmallLarge</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Size2SmallLarge</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size2SmallLarge"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.44787</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size2SmallLarge"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4602== Memcheck, a memory error detector
+==4602== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4602== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4602== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size2SmallLarge
+==4602== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size2SmallLarge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size2SmallLarge
+[       OK ] Pivot.Size2SmallLarge (32 ms)
+[----------] 1 test from Pivot (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (94 ms total)
+[  PASSED  ] 1 test.
+==4602== 
+==4602== HEAP SUMMARY:
+==4602==     in use at exit: 0 bytes in 0 blocks
+==4602==   total heap usage: 415 allocs, 415 frees, 133,352 bytes allocated
+==4602== 
+==4602== All heap blocks were freed -- no leaks are possible
+==4602== 
+==4602== For counts of detected and suppressed errors, rerun with: -v
+==4602== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.Size2LargeSmall</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Size2LargeSmall</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size2LargeSmall"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.45446</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size2LargeSmall"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4603== Memcheck, a memory error detector
+==4603== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4603== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4603== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size2LargeSmall
+==4603== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size2LargeSmall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size2LargeSmall
+[       OK ] Pivot.Size2LargeSmall (32 ms)
+[----------] 1 test from Pivot (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (98 ms total)
+[  PASSED  ] 1 test.
+==4603== 
+==4603== HEAP SUMMARY:
+==4603==     in use at exit: 0 bytes in 0 blocks
+==4603==   total heap usage: 415 allocs, 415 frees, 133,352 bytes allocated
+==4603== 
+==4603== All heap blocks were freed -- no leaks are possible
+==4603== 
+==4603== For counts of detected and suppressed errors, rerun with: -v
+==4603== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.Size3LargeSmallLarge</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Size3LargeSmallLarge</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3LargeSmallLarge"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.50859</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3LargeSmallLarge"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4604== Memcheck, a memory error detector
+==4604== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4604== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4604== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size3LargeSmallLarge
+==4604== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size3LargeSmallLarge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size3LargeSmallLarge
+[       OK ] Pivot.Size3LargeSmallLarge (33 ms)
+[----------] 1 test from Pivot (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (98 ms total)
+[  PASSED  ] 1 test.
+==4604== 
+==4604== HEAP SUMMARY:
+==4604==     in use at exit: 0 bytes in 0 blocks
+==4604==   total heap usage: 416 allocs, 416 frees, 133,426 bytes allocated
+==4604== 
+==4604== All heap blocks were freed -- no leaks are possible
+==4604== 
+==4604== For counts of detected and suppressed errors, rerun with: -v
+==4604== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.Size3SmallLargeSmall</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Size3SmallLargeSmall</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3SmallLargeSmall"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.47219</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3SmallLargeSmall"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4605== Memcheck, a memory error detector
+==4605== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4605== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4605== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size3SmallLargeSmall
+==4605== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size3SmallLargeSmall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size3SmallLargeSmall
+[       OK ] Pivot.Size3SmallLargeSmall (33 ms)
+[----------] 1 test from Pivot (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (94 ms total)
+[  PASSED  ] 1 test.
+==4605== 
+==4605== HEAP SUMMARY:
+==4605==     in use at exit: 0 bytes in 0 blocks
+==4605==   total heap usage: 416 allocs, 416 frees, 133,426 bytes allocated
+==4605== 
+==4605== All heap blocks were freed -- no leaks are possible
+==4605== 
+==4605== For counts of detected and suppressed errors, rerun with: -v
+==4605== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.Size3LargeLargeSmall</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Size3LargeLargeSmall</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3LargeLargeSmall"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.43653</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3LargeLargeSmall"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4606== Memcheck, a memory error detector
+==4606== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4606== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4606== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size3LargeLargeSmall
+==4606== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size3LargeLargeSmall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size3LargeLargeSmall
+[       OK ] Pivot.Size3LargeLargeSmall (32 ms)
+[----------] 1 test from Pivot (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (92 ms total)
+[  PASSED  ] 1 test.
+==4606== 
+==4606== HEAP SUMMARY:
+==4606==     in use at exit: 0 bytes in 0 blocks
+==4606==   total heap usage: 416 allocs, 416 frees, 133,426 bytes allocated
+==4606== 
+==4606== All heap blocks were freed -- no leaks are possible
+==4606== 
+==4606== For counts of detected and suppressed errors, rerun with: -v
+==4606== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.Size6SmallThenLarge</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Size6SmallThenLarge</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size6SmallThenLarge"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.50232</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size6SmallThenLarge"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4607== Memcheck, a memory error detector
+==4607== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4607== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4607== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size6SmallThenLarge
+==4607== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size6SmallThenLarge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size6SmallThenLarge
+[       OK ] Pivot.Size6SmallThenLarge (32 ms)
+[----------] 1 test from Pivot (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (93 ms total)
+[  PASSED  ] 1 test.
+==4607== 
+==4607== HEAP SUMMARY:
+==4607==     in use at exit: 0 bytes in 0 blocks
+==4607==   total heap usage: 419 allocs, 419 frees, 133,488 bytes allocated
+==4607== 
+==4607== All heap blocks were freed -- no leaks are possible
+==4607== 
+==4607== For counts of detected and suppressed errors, rerun with: -v
+==4607== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.Size6LargeThenSmall</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Size6LargeThenSmall</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size6LargeThenSmall"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.45957</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size6LargeThenSmall"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4608== Memcheck, a memory error detector
+==4608== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4608== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4608== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size6LargeThenSmall
+==4608== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size6LargeThenSmall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size6LargeThenSmall
+[       OK ] Pivot.Size6LargeThenSmall (32 ms)
+[----------] 1 test from Pivot (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (95 ms total)
+[  PASSED  ] 1 test.
+==4608== 
+==4608== HEAP SUMMARY:
+==4608==     in use at exit: 0 bytes in 0 blocks
+==4608==   total heap usage: 419 allocs, 419 frees, 133,488 bytes allocated
+==4608== 
+==4608== All heap blocks were freed -- no leaks are possible
+==4608== 
+==4608== For counts of detected and suppressed errors, rerun with: -v
+==4608== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.Nominal</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.Nominal</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Nominal"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.46363</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Nominal"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4609== Memcheck, a memory error detector
+==4609== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4609== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4609== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Nominal
+==4609== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Nominal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Nominal
+[       OK ] Pivot.Nominal (33 ms)
+[----------] 1 test from Pivot (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (93 ms total)
+[  PASSED  ] 1 test.
+==4609== 
+==4609== HEAP SUMMARY:
+==4609==     in use at exit: 0 bytes in 0 blocks
+==4609==   total heap usage: 411 allocs, 411 frees, 133,189 bytes allocated
+==4609== 
+==4609== All heap blocks were freed -- no leaks are possible
+==4609== 
+==4609== For counts of detected and suppressed errors, rerun with: -v
+==4609== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.SameValues</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.SameValues</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.SameValues"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.49128</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.SameValues"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4610== Memcheck, a memory error detector
+==4610== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4610== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4610== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.SameValues
+==4610== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.SameValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.SameValues
+[       OK ] Pivot.SameValues (32 ms)
+[----------] 1 test from Pivot (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (93 ms total)
+[  PASSED  ] 1 test.
+==4610== 
+==4610== HEAP SUMMARY:
+==4610==     in use at exit: 0 bytes in 0 blocks
+==4610==   total heap usage: 416 allocs, 416 frees, 133,350 bytes allocated
+==4610== 
+==4610== All heap blocks were freed -- no leaks are possible
+==4610== 
+==4610== For counts of detected and suppressed errors, rerun with: -v
+==4610== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Pivot.NoCopySameNodeCheck</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Pivot.NoCopySameNodeCheck</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.NoCopySameNodeCheck"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.50299</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.NoCopySameNodeCheck"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4611== Memcheck, a memory error detector
+==4611== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4611== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4611== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.NoCopySameNodeCheck
+==4611== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.NoCopySameNodeCheck
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.NoCopySameNodeCheck
+[       OK ] Pivot.NoCopySameNodeCheck (51 ms)
+[----------] 1 test from Pivot (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (120 ms total)
+[  PASSED  ] 1 test.
+==4611== 
+==4611== HEAP SUMMARY:
+==4611==     in use at exit: 0 bytes in 0 blocks
+==4611==   total heap usage: 420 allocs, 420 frees, 133,496 bytes allocated
+==4611== 
+==4611== All heap blocks were freed -- no leaks are possible
+==4611== 
+==4611== For counts of detected and suppressed errors, rerun with: -v
+==4611== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Filter.EmptyList</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Filter.EmptyList</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.EmptyList"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.45006</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.EmptyList"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4612== Memcheck, a memory error detector
+==4612== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4612== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4612== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.EmptyList
+==4612== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.EmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.EmptyList
+[       OK ] Filter.EmptyList (22 ms)
+[----------] 1 test from Filter (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (83 ms total)
+[  PASSED  ] 1 test.
+==4612== 
+==4612== HEAP SUMMARY:
+==4612==     in use at exit: 0 bytes in 0 blocks
+==4612==   total heap usage: 410 allocs, 410 frees, 133,254 bytes allocated
+==4612== 
+==4612== All heap blocks were freed -- no leaks are possible
+==4612== 
+==4612== For counts of detected and suppressed errors, rerun with: -v
+==4612== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Filter.Size1_F</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Filter.Size1_F</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size1_F"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.45469</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size1_F"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4613== Memcheck, a memory error detector
+==4613== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4613== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4613== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size1_F
+==4613== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size1_F
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size1_F
+[       OK ] Filter.Size1_F (30 ms)
+[----------] 1 test from Filter (39 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (90 ms total)
+[  PASSED  ] 1 test.
+==4613== 
+==4613== HEAP SUMMARY:
+==4613==     in use at exit: 16 bytes in 1 blocks
+==4613==   total heap usage: 407 allocs, 406 frees, 133,122 bytes allocated
+==4613== 
+==4613== 16 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==4613==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4613==    by 0x11ADE6: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:16)
+==4613==    by 0x112869: Filter_Size1_F_Test::TestBody() (llrec_tests.cpp:291)
+==4613==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4613==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4613==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4613==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4613==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4613==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4613==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4613==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4613==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4613== 
+==4613== LEAK SUMMARY:
+==4613==    definitely lost: 16 bytes in 1 blocks
+==4613==    indirectly lost: 0 bytes in 0 blocks
+==4613==      possibly lost: 0 bytes in 0 blocks
+==4613==    still reachable: 0 bytes in 0 blocks
+==4613==         suppressed: 0 bytes in 0 blocks
+==4613== 
+==4613== For counts of detected and suppressed errors, rerun with: -v
+==4613== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Filter.Size1_nF</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Filter.Size1_nF</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size1_nF"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.55493</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size1_nF"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4614== Memcheck, a memory error detector
+==4614== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4614== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4614== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size1_nF
+==4614== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size1_nF
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size1_nF
+[       OK ] Filter.Size1_nF (31 ms)
+[----------] 1 test from Filter (40 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (93 ms total)
+[  PASSED  ] 1 test.
+==4614== 
+==4614== HEAP SUMMARY:
+==4614==     in use at exit: 0 bytes in 0 blocks
+==4614==   total heap usage: 408 allocs, 408 frees, 133,131 bytes allocated
+==4614== 
+==4614== All heap blocks were freed -- no leaks are possible
+==4614== 
+==4614== For counts of detected and suppressed errors, rerun with: -v
+==4614== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Filter.Size2_F_nF</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Filter.Size2_F_nF</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size2_F_nF"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.59966</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size2_F_nF"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4615== Memcheck, a memory error detector
+==4615== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4615== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4615== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size2_F_nF
+==4615== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size2_F_nF
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size2_F_nF
+[       OK ] Filter.Size2_F_nF (38 ms)
+[----------] 1 test from Filter (48 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (107 ms total)
+[  PASSED  ] 1 test.
+==4615== 
+==4615== HEAP SUMMARY:
+==4615==     in use at exit: 16 bytes in 1 blocks
+==4615==   total heap usage: 415 allocs, 414 frees, 133,316 bytes allocated
+==4615== 
+==4615== 16 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==4615==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4615==    by 0x11ADE6: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:16)
+==4615==    by 0x1131A7: Filter_Size2_F_nF_Test::TestBody() (llrec_tests.cpp:314)
+==4615==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4615==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4615==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4615==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4615==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4615==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4615==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4615==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4615==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4615== 
+==4615== LEAK SUMMARY:
+==4615==    definitely lost: 16 bytes in 1 blocks
+==4615==    indirectly lost: 0 bytes in 0 blocks
+==4615==      possibly lost: 0 bytes in 0 blocks
+==4615==    still reachable: 0 bytes in 0 blocks
+==4615==         suppressed: 0 bytes in 0 blocks
+==4615== 
+==4615== For counts of detected and suppressed errors, rerun with: -v
+==4615== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Filter.Size2_nF_F</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Filter.Size2_nF_F</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size2_nF_F"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.5695</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size2_nF_F"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4616== Memcheck, a memory error detector
+==4616== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4616== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4616== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size2_nF_F
+==4616== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size2_nF_F
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size2_nF_F
+[       OK ] Filter.Size2_nF_F (33 ms)
+[----------] 1 test from Filter (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (98 ms total)
+[  PASSED  ] 1 test.
+==4616== 
+==4616== HEAP SUMMARY:
+==4616==     in use at exit: 16 bytes in 1 blocks
+==4616==   total heap usage: 414 allocs, 413 frees, 133,308 bytes allocated
+==4616== 
+==4616== 16 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==4616==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4616==    by 0x11AE13: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:20)
+==4616==    by 0x11365F: Filter_Size2_nF_F_Test::TestBody() (llrec_tests.cpp:325)
+==4616==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4616==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4616==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4616==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4616==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4616==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4616==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4616==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4616==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4616== 
+==4616== LEAK SUMMARY:
+==4616==    definitely lost: 16 bytes in 1 blocks
+==4616==    indirectly lost: 0 bytes in 0 blocks
+==4616==      possibly lost: 0 bytes in 0 blocks
+==4616==    still reachable: 0 bytes in 0 blocks
+==4616==         suppressed: 0 bytes in 0 blocks
+==4616== 
+==4616== For counts of detected and suppressed errors, rerun with: -v
+==4616== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Filter.Size3_nF_F_nF</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Filter.Size3_nF_F_nF</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size3_nF_F_nF"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.74949</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size3_nF_F_nF"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4617== Memcheck, a memory error detector
+==4617== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4617== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4617== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size3_nF_F_nF
+==4617== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size3_nF_F_nF
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size3_nF_F_nF
+[       OK ] Filter.Size3_nF_F_nF (39 ms)
+[----------] 1 test from Filter (52 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (114 ms total)
+[  PASSED  ] 1 test.
+==4617== 
+==4617== HEAP SUMMARY:
+==4617==     in use at exit: 16 bytes in 1 blocks
+==4617==   total heap usage: 415 allocs, 414 frees, 133,362 bytes allocated
+==4617== 
+==4617== 16 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==4617==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4617==    by 0x11AE13: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:20)
+==4617==    by 0x113951: Filter_Size3_nF_F_nF_Test::TestBody() (llrec_tests.cpp:335)
+==4617==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4617==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4617==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4617==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4617==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4617==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4617==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4617==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4617==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4617== 
+==4617== LEAK SUMMARY:
+==4617==    definitely lost: 16 bytes in 1 blocks
+==4617==    indirectly lost: 0 bytes in 0 blocks
+==4617==      possibly lost: 0 bytes in 0 blocks
+==4617==    still reachable: 0 bytes in 0 blocks
+==4617==         suppressed: 0 bytes in 0 blocks
+==4617== 
+==4617== For counts of detected and suppressed errors, rerun with: -v
+==4617== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Filter.Size3_F_nF_F</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Filter.Size3_F_nF_F</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size3_F_nF_F"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.56314</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size3_F_nF_F"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4618== Memcheck, a memory error detector
+==4618== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4618== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4618== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size3_F_nF_F
+==4618== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size3_F_nF_F
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size3_F_nF_F
+[       OK ] Filter.Size3_F_nF_F (31 ms)
+[----------] 1 test from Filter (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (99 ms total)
+[  PASSED  ] 1 test.
+==4618== 
+==4618== HEAP SUMMARY:
+==4618==     in use at exit: 32 bytes in 2 blocks
+==4618==   total heap usage: 415 allocs, 413 frees, 133,348 bytes allocated
+==4618== 
+==4618== 16 bytes in 1 blocks are definitely lost in loss record 1 of 2
+==4618==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4618==    by 0x11ADE6: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:16)
+==4618==    by 0x113C43: Filter_Size3_F_nF_F_Test::TestBody() (llrec_tests.cpp:345)
+==4618==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618== 
+==4618== 16 bytes in 1 blocks are definitely lost in loss record 2 of 2
+==4618==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4618==    by 0x11AE13: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:20)
+==4618==    by 0x113C43: Filter_Size3_F_nF_F_Test::TestBody() (llrec_tests.cpp:345)
+==4618==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4618== 
+==4618== LEAK SUMMARY:
+==4618==    definitely lost: 32 bytes in 2 blocks
+==4618==    indirectly lost: 0 bytes in 0 blocks
+==4618==      possibly lost: 0 bytes in 0 blocks
+==4618==    still reachable: 0 bytes in 0 blocks
+==4618==         suppressed: 0 bytes in 0 blocks
+==4618== 
+==4618== For counts of detected and suppressed errors, rerun with: -v
+==4618== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Filter.SameNodeCheck</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Filter.SameNodeCheck</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.SameNodeCheck"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.73937</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.SameNodeCheck"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4619== Memcheck, a memory error detector
+==4619== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4619== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4619== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.SameNodeCheck
+==4619== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.SameNodeCheck
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.SameNodeCheck
+[       OK ] Filter.SameNodeCheck (46 ms)
+[----------] 1 test from Filter (55 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (107 ms total)
+[  PASSED  ] 1 test.
+==4619== 
+==4619== HEAP SUMMARY:
+==4619==     in use at exit: 16 bytes in 1 blocks
+==4619==   total heap usage: 420 allocs, 419 frees, 133,458 bytes allocated
+==4619== 
+==4619== 16 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==4619==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4619==    by 0x11AE13: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:20)
+==4619==    by 0x113F49: Filter_SameNodeCheck_Test::TestBody() (llrec_tests.cpp:355)
+==4619==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4619==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4619==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4619==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4619==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4619==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4619==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4619==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4619==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4619== 
+==4619== LEAK SUMMARY:
+==4619==    definitely lost: 16 bytes in 1 blocks
+==4619==    indirectly lost: 0 bytes in 0 blocks
+==4619==      possibly lost: 0 bytes in 0 blocks
+==4619==    still reachable: 0 bytes in 0 blocks
+==4619==         suppressed: 0 bytes in 0 blocks
+==4619== 
+==4619== For counts of detected and suppressed errors, rerun with: -v
+==4619== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Filter.MultipleCalls</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Filter.MultipleCalls</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.MultipleCalls"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.47109</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.MultipleCalls"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4620== Memcheck, a memory error detector
+==4620== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4620== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4620== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.MultipleCalls
+==4620== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.MultipleCalls
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.MultipleCalls
+[       OK ] Filter.MultipleCalls (31 ms)
+[----------] 1 test from Filter (40 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (90 ms total)
+[  PASSED  ] 1 test.
+==4620== 
+==4620== HEAP SUMMARY:
+==4620==     in use at exit: 80 bytes in 5 blocks
+==4620==   total heap usage: 420 allocs, 415 frees, 133,458 bytes allocated
+==4620== 
+==4620== 16 bytes in 1 blocks are definitely lost in loss record 1 of 2
+==4620==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4620==    by 0x11ADE6: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:16)
+==4620==    by 0x1145E3: Filter_MultipleCalls_Test::TestBody() (llrec_tests.cpp:380)
+==4620==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620== 
+==4620== 64 bytes in 4 blocks are definitely lost in loss record 2 of 2
+==4620==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4620==    by 0x11AE13: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:20)
+==4620==    by 0x1145E3: Filter_MultipleCalls_Test::TestBody() (llrec_tests.cpp:380)
+==4620==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4620== 
+==4620== LEAK SUMMARY:
+==4620==    definitely lost: 80 bytes in 5 blocks
+==4620==    indirectly lost: 0 bytes in 0 blocks
+==4620==      possibly lost: 0 bytes in 0 blocks
+==4620==    still reachable: 0 bytes in 0 blocks
+==4620==         suppressed: 0 bytes in 0 blocks
+==4620== 
+==4620== For counts of detected and suppressed errors, rerun with: -v
+==4620== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Filter.CompareWithLlrec</Name>
+			<Path>./llrec_tests</Path>
+			<FullName>./llrec_tests/Filter.CompareWithLlrec</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.CompareWithLlrec"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.46</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.CompareWithLlrec"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4621== Memcheck, a memory error detector
+==4621== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4621== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4621== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.CompareWithLlrec
+==4621== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.CompareWithLlrec
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.CompareWithLlrec
+[       OK ] Filter.CompareWithLlrec (41 ms)
+[----------] 1 test from Filter (50 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (102 ms total)
+[  PASSED  ] 1 test.
+==4621== 
+==4621== HEAP SUMMARY:
+==4621==     in use at exit: 64 bytes in 4 blocks
+==4621==   total heap usage: 430 allocs, 426 frees, 133,612 bytes allocated
+==4621== 
+==4621== 16 bytes in 1 blocks are definitely lost in loss record 1 of 3
+==4621==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4621==    by 0x11ADE6: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:16)
+==4621==    by 0x114F07: Filter_CompareWithLlrec_Test::TestBody() (llrec_tests.cpp:406)
+==4621==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621== 
+==4621== 16 bytes in 1 blocks are definitely lost in loss record 2 of 3
+==4621==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4621==    by 0x11AE13: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:20)
+==4621==    by 0x11537A: Filter_CompareWithLlrec_Test::TestBody() (llrec_tests.cpp:417)
+==4621==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621== 
+==4621== 32 bytes in 2 blocks are definitely lost in loss record 3 of 3
+==4621==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4621==    by 0x11AE13: makeList(std::vector&lt;int, std::allocator&lt;int&gt; &gt; const&amp;) (llrec_test_utils.cpp:20)
+==4621==    by 0x114F07: Filter_CompareWithLlrec_Test::TestBody() (llrec_tests.cpp:406)
+==4621==    by 0x5109FD2: void testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x5103038: void testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::Test, void&gt;(testing::Test*, void (testing::Test::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50E00DD: testing::Test::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50E0AF0: testing::TestInfo::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50E13EA: testing::TestSuite::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50F085A: testing::internal::UnitTestImpl::RunAllTests() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x510B1F2: bool testing::internal::HandleSehExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x5103FBC: bool testing::internal::HandleExceptionsInMethodIfSupported&lt;testing::internal::UnitTestImpl, bool&gt;(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621==    by 0x50EEF2E: testing::UnitTest::Run() (in /usr/lib/x86_64-linux-gnu/libgtest.so.1.11.0)
+==4621== 
+==4621== LEAK SUMMARY:
+==4621==    definitely lost: 64 bytes in 4 blocks
+==4621==    indirectly lost: 0 bytes in 0 blocks
+==4621==      possibly lost: 0 bytes in 0 blocks
+==4621==    still reachable: 0 bytes in 0 blocks
+==4621==         suppressed: 0 bytes in 0 blocks
+==4621== 
+==4621== For counts of detected and suppressed errors, rerun with: -v
+==4621== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Stack.BasicString</Name>
+			<Path>./stack_tests</Path>
+			<FullName>./stack_tests/Stack.BasicString</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests" "--gtest_filter=Stack.BasicString"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.50603</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests" "--gtest_filter=Stack.BasicString"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4622== Memcheck, a memory error detector
+==4622== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4622== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4622== Command: /home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests --gtest_filter=Stack.BasicString
+==4622== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Stack.BasicString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Stack
+[ RUN      ] Stack.BasicString
+[       OK ] Stack.BasicString (89 ms)
+[----------] 1 test from Stack (98 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (150 ms total)
+[  PASSED  ] 1 test.
+==4622== 
+==4622== HEAP SUMMARY:
+==4622==     in use at exit: 0 bytes in 0 blocks
+==4622==   total heap usage: 230 allocs, 230 frees, 120,582 bytes allocated
+==4622== 
+==4622== All heap blocks were freed -- no leaks are possible
+==4622== 
+==4622== For counts of detected and suppressed errors, rerun with: -v
+==4622== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Stack.RandomInt</Name>
+			<Path>./stack_tests</Path>
+			<FullName>./stack_tests/Stack.RandomInt</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests" "--gtest_filter=Stack.RandomInt"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>3.77195</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests" "--gtest_filter=Stack.RandomInt"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4623== Memcheck, a memory error detector
+==4623== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4623== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4623== Command: /home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests --gtest_filter=Stack.RandomInt
+==4623== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Stack.RandomInt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Stack
+[ RUN      ] Stack.RandomInt
+[       OK ] Stack.RandomInt (2240 ms)
+[----------] 1 test from Stack (2253 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2321 ms total)
+[  PASSED  ] 1 test.
+==4623== 
+==4623== HEAP SUMMARY:
+==4623==     in use at exit: 0 bytes in 0 blocks
+==4623==   total heap usage: 21,262 allocs, 21,262 frees, 1,081,433 bytes allocated
+==4623== 
+==4623== All heap blocks were freed -- no leaks are possible
+==4623== 
+==4623== For counts of detected and suppressed errors, rerun with: -v
+==4623== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.ConstructionDestruction</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.ConstructionDestruction</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ConstructionDestruction"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.96271</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ConstructionDestruction"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4624== Memcheck, a memory error detector
+==4624== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4624== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4624== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ConstructionDestruction
+==4624== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ConstructionDestruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ConstructionDestruction
+[       OK ] HeapTest.ConstructionDestruction (22 ms)
+[----------] 1 test from HeapTest (35 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (102 ms total)
+[  PASSED  ] 1 test.
+==4624== 
+==4624== HEAP SUMMARY:
+==4624==     in use at exit: 0 bytes in 0 blocks
+==4624==   total heap usage: 468 allocs, 468 frees, 135,793 bytes allocated
+==4624== 
+==4624== All heap blocks were freed -- no leaks are possible
+==4624== 
+==4624== For counts of detected and suppressed errors, rerun with: -v
+==4624== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.InitiallyEmpty</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.InitiallyEmpty</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.InitiallyEmpty"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.8904</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.InitiallyEmpty"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4625== Memcheck, a memory error detector
+==4625== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4625== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4625== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.InitiallyEmpty
+==4625== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.InitiallyEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.InitiallyEmpty
+[       OK ] HeapTest.InitiallyEmpty (24 ms)
+[----------] 1 test from HeapTest (36 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (104 ms total)
+[  PASSED  ] 1 test.
+==4625== 
+==4625== HEAP SUMMARY:
+==4625==     in use at exit: 0 bytes in 0 blocks
+==4625==   total heap usage: 468 allocs, 468 frees, 135,697 bytes allocated
+==4625== 
+==4625== All heap blocks were freed -- no leaks are possible
+==4625== 
+==4625== For counts of detected and suppressed errors, rerun with: -v
+==4625== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.EmptyTopException</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.EmptyTopException</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyTopException"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.87321</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyTopException"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4626== Memcheck, a memory error detector
+==4626== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4626== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4626== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.EmptyTopException
+==4626== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyTopException
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyTopException
+[       OK ] HeapTest.EmptyTopException (75 ms)
+[----------] 1 test from HeapTest (85 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (151 ms total)
+[  PASSED  ] 1 test.
+==4626== 
+==4626== HEAP SUMMARY:
+==4626==     in use at exit: 0 bytes in 0 blocks
+==4626==   total heap usage: 470 allocs, 470 frees, 135,901 bytes allocated
+==4626== 
+==4626== All heap blocks were freed -- no leaks are possible
+==4626== 
+==4626== For counts of detected and suppressed errors, rerun with: -v
+==4626== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.EmptyPopException</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.EmptyPopException</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyPopException"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.16418</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyPopException"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4627== Memcheck, a memory error detector
+==4627== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4627== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4627== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.EmptyPopException
+==4627== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyPopException
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyPopException
+[       OK ] HeapTest.EmptyPopException (88 ms)
+[----------] 1 test from HeapTest (103 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (182 ms total)
+[  PASSED  ] 1 test.
+==4627== 
+==4627== HEAP SUMMARY:
+==4627==     in use at exit: 0 bytes in 0 blocks
+==4627==   total heap usage: 470 allocs, 470 frees, 135,901 bytes allocated
+==4627== 
+==4627== All heap blocks were freed -- no leaks are possible
+==4627== 
+==4627== For counts of detected and suppressed errors, rerun with: -v
+==4627== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.SingleItemNonempty</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.SingleItemNonempty</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemNonempty"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.38145</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemNonempty"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4628== Memcheck, a memory error detector
+==4628== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4628== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4628== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemNonempty
+==4628== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemNonempty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemNonempty
+[       OK ] HeapTest.SingleItemNonempty (36 ms)
+[----------] 1 test from HeapTest (57 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (129 ms total)
+[  PASSED  ] 1 test.
+==4628== 
+==4628== HEAP SUMMARY:
+==4628==     in use at exit: 0 bytes in 0 blocks
+==4628==   total heap usage: 469 allocs, 469 frees, 135,741 bytes allocated
+==4628== 
+==4628== All heap blocks were freed -- no leaks are possible
+==4628== 
+==4628== For counts of detected and suppressed errors, rerun with: -v
+==4628== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.SingleItemPush</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.SingleItemPush</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPush"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.86133</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPush"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4629== Memcheck, a memory error detector
+==4629== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4629== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4629== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemPush
+==4629== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPush
+[       OK ] HeapTest.SingleItemPush (32 ms)
+[----------] 1 test from HeapTest (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (99 ms total)
+[  PASSED  ] 1 test.
+==4629== 
+==4629== HEAP SUMMARY:
+==4629==     in use at exit: 0 bytes in 0 blocks
+==4629==   total heap usage: 469 allocs, 469 frees, 135,701 bytes allocated
+==4629== 
+==4629== All heap blocks were freed -- no leaks are possible
+==4629== 
+==4629== For counts of detected and suppressed errors, rerun with: -v
+==4629== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.SingleItemPushPop</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.SingleItemPushPop</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPushPop"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.67248</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPushPop"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4630== Memcheck, a memory error detector
+==4630== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4630== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4630== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemPushPop
+==4630== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPushPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPushPop
+[       OK ] HeapTest.SingleItemPushPop (27 ms)
+[----------] 1 test from HeapTest (38 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (93 ms total)
+[  PASSED  ] 1 test.
+==4630== 
+==4630== HEAP SUMMARY:
+==4630==     in use at exit: 0 bytes in 0 blocks
+==4630==   total heap usage: 469 allocs, 469 frees, 135,731 bytes allocated
+==4630== 
+==4630== All heap blocks were freed -- no leaks are possible
+==4630== 
+==4630== For counts of detected and suppressed errors, rerun with: -v
+==4630== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.TwoElementPush_LowPriFirst</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.TwoElementPush_LowPriFirst</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_LowPriFirst"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.62152</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_LowPriFirst"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4631== Memcheck, a memory error detector
+==4631== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4631== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4631== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.TwoElementPush_LowPriFirst
+==4631== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_LowPriFirst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_LowPriFirst
+[       OK ] HeapTest.TwoElementPush_LowPriFirst (30 ms)
+[----------] 1 test from HeapTest (39 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (92 ms total)
+[  PASSED  ] 1 test.
+==4631== 
+==4631== HEAP SUMMARY:
+==4631==     in use at exit: 0 bytes in 0 blocks
+==4631==   total heap usage: 470 allocs, 470 frees, 135,844 bytes allocated
+==4631== 
+==4631== All heap blocks were freed -- no leaks are possible
+==4631== 
+==4631== For counts of detected and suppressed errors, rerun with: -v
+==4631== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.TwoElementPush_HighPriFirst</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.TwoElementPush_HighPriFirst</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_HighPriFirst"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.98816</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_HighPriFirst"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4632== Memcheck, a memory error detector
+==4632== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4632== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4632== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.TwoElementPush_HighPriFirst
+==4632== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_HighPriFirst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_HighPriFirst
+[       OK ] HeapTest.TwoElementPush_HighPriFirst (32 ms)
+[----------] 1 test from HeapTest (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (98 ms total)
+[  PASSED  ] 1 test.
+==4632== 
+==4632== HEAP SUMMARY:
+==4632==     in use at exit: 0 bytes in 0 blocks
+==4632==   total heap usage: 470 allocs, 470 frees, 135,857 bytes allocated
+==4632== 
+==4632== All heap blocks were freed -- no leaks are possible
+==4632== 
+==4632== For counts of detected and suppressed errors, rerun with: -v
+==4632== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.Duplicates</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.Duplicates</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.Duplicates"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.58619</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.Duplicates"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4633== Memcheck, a memory error detector
+==4633== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4633== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4633== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.Duplicates
+==4633== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.Duplicates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.Duplicates
+[       OK ] HeapTest.Duplicates (32 ms)
+[----------] 1 test from HeapTest (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (93 ms total)
+[  PASSED  ] 1 test.
+==4633== 
+==4633== HEAP SUMMARY:
+==4633==     in use at exit: 0 bytes in 0 blocks
+==4633==   total heap usage: 471 allocs, 471 frees, 135,685 bytes allocated
+==4633== 
+==4633== All heap blocks were freed -- no leaks are possible
+==4633== 
+==4633== For counts of detected and suppressed errors, rerun with: -v
+==4633== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.NegativeElements</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.NegativeElements</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.NegativeElements"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.95247</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.NegativeElements"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4634== Memcheck, a memory error detector
+==4634== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4634== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4634== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.NegativeElements
+==4634== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.NegativeElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.NegativeElements
+[       OK ] HeapTest.NegativeElements (45 ms)
+[----------] 1 test from HeapTest (60 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (155 ms total)
+[  PASSED  ] 1 test.
+==4634== 
+==4634== HEAP SUMMARY:
+==4634==     in use at exit: 0 bytes in 0 blocks
+==4634==   total heap usage: 470 allocs, 470 frees, 135,729 bytes allocated
+==4634== 
+==4634== All heap blocks were freed -- no leaks are possible
+==4634== 
+==4634== For counts of detected and suppressed errors, rerun with: -v
+==4634== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.ThreeElementPush_0_5_10</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.ThreeElementPush_0_5_10</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_5_10"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.49942</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_5_10"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4635== Memcheck, a memory error detector
+==4635== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4635== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4635== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_0_5_10
+==4635== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_0_5_10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_0_5_10
+[       OK ] HeapTest.ThreeElementPush_0_5_10 (49 ms)
+[----------] 1 test from HeapTest (63 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (140 ms total)
+[  PASSED  ] 1 test.
+==4635== 
+==4635== HEAP SUMMARY:
+==4635==     in use at exit: 0 bytes in 0 blocks
+==4635==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==4635== 
+==4635== All heap blocks were freed -- no leaks are possible
+==4635== 
+==4635== For counts of detected and suppressed errors, rerun with: -v
+==4635== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.ThreeElementPush_0_10_5</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.ThreeElementPush_0_10_5</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_10_5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.60088</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_10_5"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4636== Memcheck, a memory error detector
+==4636== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4636== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4636== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_0_10_5
+==4636== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_0_10_5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_0_10_5
+[       OK ] HeapTest.ThreeElementPush_0_10_5 (51 ms)
+[----------] 1 test from HeapTest (68 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (152 ms total)
+[  PASSED  ] 1 test.
+==4636== 
+==4636== HEAP SUMMARY:
+==4636==     in use at exit: 0 bytes in 0 blocks
+==4636==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==4636== 
+==4636== All heap blocks were freed -- no leaks are possible
+==4636== 
+==4636== For counts of detected and suppressed errors, rerun with: -v
+==4636== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.ThreeElementPush_5_0_10</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.ThreeElementPush_5_0_10</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_0_10"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.51897</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_0_10"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4637== Memcheck, a memory error detector
+==4637== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4637== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4637== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_5_0_10
+==4637== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_5_0_10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_5_0_10
+[       OK ] HeapTest.ThreeElementPush_5_0_10 (51 ms)
+[----------] 1 test from HeapTest (65 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (145 ms total)
+[  PASSED  ] 1 test.
+==4637== 
+==4637== HEAP SUMMARY:
+==4637==     in use at exit: 0 bytes in 0 blocks
+==4637==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==4637== 
+==4637== All heap blocks were freed -- no leaks are possible
+==4637== 
+==4637== For counts of detected and suppressed errors, rerun with: -v
+==4637== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.ThreeElementPush_5_10_0</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.ThreeElementPush_5_10_0</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_10_0"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.20798</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_10_0"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4638== Memcheck, a memory error detector
+==4638== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4638== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4638== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_5_10_0
+==4638== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_5_10_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_5_10_0
+[       OK ] HeapTest.ThreeElementPush_5_10_0 (57 ms)
+[----------] 1 test from HeapTest (73 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (158 ms total)
+[  PASSED  ] 1 test.
+==4638== 
+==4638== HEAP SUMMARY:
+==4638==     in use at exit: 0 bytes in 0 blocks
+==4638==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==4638== 
+==4638== All heap blocks were freed -- no leaks are possible
+==4638== 
+==4638== For counts of detected and suppressed errors, rerun with: -v
+==4638== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.ThreeElementPush_10_0_5</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.ThreeElementPush_10_0_5</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_0_5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.07314</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_0_5"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4639== Memcheck, a memory error detector
+==4639== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4639== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4639== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_10_0_5
+==4639== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_0_5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_0_5
+[       OK ] HeapTest.ThreeElementPush_10_0_5 (45 ms)
+[----------] 1 test from HeapTest (70 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (140 ms total)
+[  PASSED  ] 1 test.
+==4639== 
+==4639== HEAP SUMMARY:
+==4639==     in use at exit: 0 bytes in 0 blocks
+==4639==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==4639== 
+==4639== All heap blocks were freed -- no leaks are possible
+==4639== 
+==4639== For counts of detected and suppressed errors, rerun with: -v
+==4639== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.ThreeElementPush_10_5_0</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.ThreeElementPush_10_5_0</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_5_0"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.85015</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_5_0"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4640== Memcheck, a memory error detector
+==4640== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4640== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4640== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_10_5_0
+==4640== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_5_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_5_0
+[       OK ] HeapTest.ThreeElementPush_10_5_0 (41 ms)
+[----------] 1 test from HeapTest (53 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (118 ms total)
+[  PASSED  ] 1 test.
+==4640== 
+==4640== HEAP SUMMARY:
+==4640==     in use at exit: 0 bytes in 0 blocks
+==4640==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==4640== 
+==4640== All heap blocks were freed -- no leaks are possible
+==4640== 
+==4640== For counts of detected and suppressed errors, rerun with: -v
+==4640== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.GreaterComparator</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.GreaterComparator</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.GreaterComparator"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.75442</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.GreaterComparator"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4641== Memcheck, a memory error detector
+==4641== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4641== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4641== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.GreaterComparator
+==4641== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.GreaterComparator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.GreaterComparator
+[       OK ] HeapTest.GreaterComparator (41 ms)
+[----------] 1 test from HeapTest (53 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (117 ms total)
+[  PASSED  ] 1 test.
+==4641== 
+==4641== HEAP SUMMARY:
+==4641==     in use at exit: 0 bytes in 0 blocks
+==4641==   total heap usage: 471 allocs, 471 frees, 135,755 bytes allocated
+==4641== 
+==4641== All heap blocks were freed -- no leaks are possible
+==4641== 
+==4641== For counts of detected and suppressed errors, rerun with: -v
+==4641== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.StringStorage</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.StringStorage</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.StringStorage"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.63419</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.StringStorage"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4642== Memcheck, a memory error detector
+==4642== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4642== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4642== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.StringStorage
+==4642== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.StringStorage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.StringStorage
+[       OK ] HeapTest.StringStorage (32 ms)
+[----------] 1 test from HeapTest (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (96 ms total)
+[  PASSED  ] 1 test.
+==4642== 
+==4642== HEAP SUMMARY:
+==4642==     in use at exit: 0 bytes in 0 blocks
+==4642==   total heap usage: 471 allocs, 471 frees, 135,911 bytes allocated
+==4642== 
+==4642== All heap blocks were freed -- no leaks are possible
+==4642== 
+==4642== For counts of detected and suppressed errors, rerun with: -v
+==4642== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.FiveElementPush_TrinaryHeap</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.FiveElementPush_TrinaryHeap</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.FiveElementPush_TrinaryHeap"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.72401</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.FiveElementPush_TrinaryHeap"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4643== Memcheck, a memory error detector
+==4643== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4643== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4643== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.FiveElementPush_TrinaryHeap
+==4643== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.FiveElementPush_TrinaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.FiveElementPush_TrinaryHeap
+[       OK ] HeapTest.FiveElementPush_TrinaryHeap (38 ms)
+[----------] 1 test from HeapTest (48 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (109 ms total)
+[  PASSED  ] 1 test.
+==4643== 
+==4643== HEAP SUMMARY:
+==4643==     in use at exit: 0 bytes in 0 blocks
+==4643==   total heap usage: 472 allocs, 472 frees, 135,905 bytes allocated
+==4643== 
+==4643== All heap blocks were freed -- no leaks are possible
+==4643== 
+==4643== For counts of detected and suppressed errors, rerun with: -v
+==4643== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapTest.SixElementPush_QuaternaryHeap</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapTest.SixElementPush_QuaternaryHeap</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SixElementPush_QuaternaryHeap"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.65595</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SixElementPush_QuaternaryHeap"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4644== Memcheck, a memory error detector
+==4644== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4644== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4644== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SixElementPush_QuaternaryHeap
+==4644== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SixElementPush_QuaternaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SixElementPush_QuaternaryHeap
+[       OK ] HeapTest.SixElementPush_QuaternaryHeap (42 ms)
+[----------] 1 test from HeapTest (52 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (106 ms total)
+[  PASSED  ] 1 test.
+==4644== 
+==4644== HEAP SUMMARY:
+==4644==     in use at exit: 0 bytes in 0 blocks
+==4644==   total heap usage: 472 allocs, 472 frees, 135,931 bytes allocated
+==4644== 
+==4644== All heap blocks were freed -- no leaks are possible
+==4644== 
+==4644== For counts of detected and suppressed errors, rerun with: -v
+==4644== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapStress.50x50RandomElements_BinaryHeap</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapStress.50x50RandomElements_BinaryHeap</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_BinaryHeap"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.86342</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_BinaryHeap"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4645== Memcheck, a memory error detector
+==4645== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4645== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4645== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_BinaryHeap
+==4645== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_BinaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_BinaryHeap
+[       OK ] HeapStress.50x50RandomElements_BinaryHeap (279 ms)
+[----------] 1 test from HeapStress (290 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (348 ms total)
+[  PASSED  ] 1 test.
+==4645== 
+==4645== HEAP SUMMARY:
+==4645==     in use at exit: 0 bytes in 0 blocks
+==4645==   total heap usage: 969 allocs, 969 frees, 183,502 bytes allocated
+==4645== 
+==4645== All heap blocks were freed -- no leaks are possible
+==4645== 
+==4645== For counts of detected and suppressed errors, rerun with: -v
+==4645== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapStress.50x50RandomElements_QuaternaryHeap</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapStress.50x50RandomElements_QuaternaryHeap</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.46828</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4646== Memcheck, a memory error detector
+==4646== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4646== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4646== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap
+==4646== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_QuaternaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_QuaternaryHeap
+[       OK ] HeapStress.50x50RandomElements_QuaternaryHeap (250 ms)
+[----------] 1 test from HeapStress (261 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (327 ms total)
+[  PASSED  ] 1 test.
+==4646== 
+==4646== HEAP SUMMARY:
+==4646==     in use at exit: 0 bytes in 0 blocks
+==4646==   total heap usage: 969 allocs, 969 frees, 183,554 bytes allocated
+==4646== 
+==4646== All heap blocks were freed -- no leaks are possible
+==4646== 
+==4646== For counts of detected and suppressed errors, rerun with: -v
+==4646== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapStress.50x50RandomElements_DodecenaryHeap</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapStress.50x50RandomElements_DodecenaryHeap</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_DodecenaryHeap"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.85683</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_DodecenaryHeap"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4647== Memcheck, a memory error detector
+==4647== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4647== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4647== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_DodecenaryHeap
+==4647== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_DodecenaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_DodecenaryHeap
+[       OK ] HeapStress.50x50RandomElements_DodecenaryHeap (223 ms)
+[----------] 1 test from HeapStress (232 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (294 ms total)
+[  PASSED  ] 1 test.
+==4647== 
+==4647== HEAP SUMMARY:
+==4647==     in use at exit: 0 bytes in 0 blocks
+==4647==   total heap usage: 969 allocs, 969 frees, 183,554 bytes allocated
+==4647== 
+==4647== All heap blocks were freed -- no leaks are possible
+==4647== 
+==4647== For counts of detected and suppressed errors, rerun with: -v
+==4647== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>HeapStress.2x2000RandomElements_Binary</Name>
+			<Path>./heap_tests</Path>
+			<FullName>./heap_tests/HeapStress.2x2000RandomElements_Binary</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.2x2000RandomElements_Binary"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>13.5987</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.2x2000RandomElements_Binary"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>==4648== Memcheck, a memory error detector
+==4648== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4648== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4648== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.2x2000RandomElements_Binary
+==4648== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.2x2000RandomElements_Binary
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.2x2000RandomElements_Binary
+[       OK ] HeapStress.2x2000RandomElements_Binary (12020 ms)
+[----------] 1 test from HeapStress (12031 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (12091 ms total)
+[  PASSED  ] 1 test.
+==4648== 
+==4648== HEAP SUMMARY:
+==4648==     in use at exit: 0 bytes in 0 blocks
+==4648==   total heap usage: 499 allocs, 499 frees, 200,711 bytes allocated
+==4648== 
+==4648== All heap blocks were freed -- no leaks are possible
+==4648== 
+==4648== For counts of detected and suppressed errors, rerun with: -v
+==4648== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 29 04:08 UTC</EndDateTime>
+		<EndTestTime>1669694937</EndTestTime>
+		<ElapsedMinutes>1.6</ElapsedMinutes>
+	</Testing>
+</Site>

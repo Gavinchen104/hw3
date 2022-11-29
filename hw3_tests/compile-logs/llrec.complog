@@ -1,0 +1,3 @@
+[ 50%] Building CXX object llrec_tests/CMakeFiles/hw3_llrec.dir/home/codio/workspace/hw3/llrec.cpp.o
+[100%] Linking CXX static library libhw3_llrec.a
+[100%] Built target hw3_llrec

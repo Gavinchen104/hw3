@@ -1,0 +1,25 @@
+Test Pivot.Empty passed
+Test Pivot.Size1SmallEmpty passed
+Test Pivot.Size1LargeEmpty passed
+Test Pivot.Size2SmallLarge passed
+Test Pivot.Size2LargeSmall passed
+Test Pivot.Size3LargeSmallLarge passed
+Test Pivot.Size3SmallLargeSmall passed
+Test Pivot.Size3LargeLargeSmall passed
+Test Pivot.Size6SmallThenLarge passed
+Test Pivot.Size6LargeThenSmall passed
+Test Pivot.Nominal passed
+Test Pivot.SameValues passed
+Test Pivot.NoCopySameNodeCheck passed
+Test Filter.EmptyList passed
+Test Filter.Size1_F passed
+Test Filter.Size1_nF passed
+Test Filter.Size2_F_nF passed
+Test Filter.Size2_nF_F passed
+Test Filter.Size3_nF_F_nF passed
+Test Filter.Size3_F_nF_F passed
+Test Filter.SameNodeCheck passed
+Test Filter.MultipleCalls passed
+Test Filter.CompareWithLlrec passed
+
+All Test Cases Passed
